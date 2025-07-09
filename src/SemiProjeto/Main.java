@@ -25,7 +25,7 @@ public class Main {
         System.out.println("=================================");
         System.out.print("Digite sua Escolha: ");
         int PrimeiraEscolha = CaixaDeTexto.nextInt();
-while (PrimeiraEscolha != 3){
+while (PrimeiraEscolha != 2){
         switch (PrimeiraEscolha) {
             case 1:
                 System.out.println("1 - " + Sasuke.Nome);
