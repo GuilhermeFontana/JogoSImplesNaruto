@@ -1,23 +1,23 @@
-# 🍃 Sistema RPG Naruto - Missões Ninja
+#  Sistema RPG Naruto - Missões Ninja
 
 Um sistema interativo baseado no universo de Naruto, onde você pode escolher entre diferentes ninjas e realizar missões emocionantes através da linha de comando.
 
-## 🎮 Sobre o Projeto
+##  Sobre o Projeto
 
 Este é um jogo de RPG textual ambientado no mundo de Naruto, desenvolvido em Java com programação orientada a objetos. O jogador pode escolher entre dois ninjas principais (Sasuke Uchiha e Naruto Uzumaki) e embarcar em missões de diferentes níveis de dificuldade.
 
-## ⚡ Funcionalidades
+##  Funcionalidades
 
-- 🥷 **Seleção de Personagens**: Escolha entre Sasuke Uchiha e Naruto Uzumaki
-- 🎯 **Sistema de Missões**: Missões de diferentes níveis (C e D)
-- ⚔️ **Habilidades Especiais**: Cada ninja possui suas habilidades únicas
-- 🎲 **Sistema de Escolhas**: Decisões que afetam o resultado das missões
-- 📊 **Múltiplos Finais**: Diferentes desfechos baseados nas suas escolhas
+-  **Seleção de Personagens**: Escolha entre Sasuke Uchiha e Naruto Uzumaki
+-  **Sistema de Missões**: Missões de diferentes níveis (C e D)
+-  **Habilidades Especiais**: Cada ninja possui suas habilidades únicas
+-  **Sistema de Escolhas**: Decisões que afetam o resultado das missões
+-  **Múltiplos Finais**: Diferentes desfechos baseados nas suas escolhas
 
-## 👥 Personagens Disponíveis
+##  Personagens Disponíveis
 
-### 🔥 Sasuke Uchiha
-- **Idade**: 17 anos
+###  Sasuke Uchiha
+- **idade**: 17 anos
 - **Habilidade Especial**: Sharingan
 - **Missões Disponíveis**:
   - Missão da Ponte (Nível C) - Proteger o construtor da ponte na Aldeia da Névoa
@@ -30,7 +30,7 @@ Este é um jogo de RPG textual ambientado no mundo de Naruto, desenvolvido em Ja
   - Resgate do Cachorro (Nível D) - Encontrar um cachorro perdido
   - Investigação do Furto (Nível C) - Investigar um roubo na banca de jornal
 
-## 🚀 Como Executar
+##  Como Executar
 
 ### Pré-requisitos
 - Java Development Kit (JDK) 24 ou superior
@@ -54,7 +54,7 @@ javac -d out src/SemiProjeto/*.java
 java -cp out SemiProjeto.Main
 ```
 
-## 🎯 Como Jogar
+##  Como Jogar
 
 1. **Inicie o programa** e escolha a opção "1 - Ninjas"
 2. **Selecione seu ninja**:
@@ -64,7 +64,7 @@ java -cp out SemiProjeto.Main
 4. **Tome decisões** durante a missão que afetarão o resultado
 5. **Complete a missão** e veja o desfecho baseado em suas escolhas
 
-## 💻 Exemplo de Gameplay
+##  Exemplo de Gameplay
 
 ```
 ======= Escolha uma Opção =======
@@ -86,7 +86,7 @@ Minha habilidade especial é o Sharingan!
 2 - Ir com o time 7 achar o colar da Tsunade que o Naruto perdeu (Nivel D)
 ```
 
-## 🏗️ Estrutura do Código
+##  Estrutura do Código
 
 ### Classes Principais
 
@@ -97,14 +97,14 @@ Minha habilidade especial é o Sharingan!
 
 ### Conceitos Aplicados
 
-- ✅ **Programação Orientada a Objetos**
-- ✅ **Herança** (Uchihas e Uzumaki herdam de Ninjas)
-- ✅ **Encapsulamento** (getters e setters)
-- ✅ **Polimorfismo** (método toString sobrescrito)
-- ✅ **Classes Abstratas**
-- ✅ **Estruturas de Controle** (switch-case, loops)
+-  **Programação Orientada a Objetos**
+-  **Herança** (Uchihas e Uzumaki herdam de Ninjas)
+-  **Encapsulamento** (getters e setters)
+-  **Polimorfismo** (método toString sobrescrito)
+-  **Classes Abstratas**
+-  **Estruturas de Controle** (switch-case, loops)
 
-## 🎪 Sistema de Missões
+##  Sistema de Missões
 
 ### Missões do Sasuke
 - **Missão da Ponte (Nível C)**: Envolve combate e decisões estratégicas
@@ -114,7 +114,7 @@ Minha habilidade especial é o Sharingan!
 - **Resgate do Cachorro (Nível D)**: Teste de coragem em ambiente sombrio
 - **Investigação do Furto (Nível C)**: Missão de investigação com combate
 
-## 🔮 Melhorias Futuras
+##  Melhorias Futuras
 
 - [ ] Sistema de save/load de progresso
 - [ ] Mais personagens jogáveis (Sakura, Kakashi, etc.)
@@ -126,13 +126,13 @@ Minha habilidade especial é o Sharingan!
 - [ ] Mais variedade de missões
 - [ ] Sistema de relacionamentos entre personagens
 
-## 🛠️ Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 - **Java 24**
 - **IntelliJ IDEA** (IDE de desenvolvimento)
 - **Git** (controle de versão)
 
-## 📚 Conceitos de Programação Demonstrados
+##  Conceitos de Programação Demonstrados
 
 - Programação Orientada a Objetos
 - Herança e Polimorfismo
@@ -143,7 +143,7 @@ Minha habilidade especial é o Sharingan!
 - Entrada e Saída de Dados
 - Modularização de Código
 
-## 🎖️ Créditos
+##  Créditos
 
 Projeto desenvolvido como estudo de programação orientada a objetos em Java, inspirado no universo criado por Masashi Kishimoto.
 
