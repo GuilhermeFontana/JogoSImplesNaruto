@@ -7,14 +7,13 @@ public class Main {
 
         Scanner CaixaDeTexto = new Scanner(System.in);
 
-        Uchihas Sasuke = new Uchihas();
-        Sasuke.Nome = "Sasuke Uchiha";
-        Sasuke.Idade = 17;
+        Uchihas sasuke = new Uchihas();
+        sasuke.setIdade(17);
+        sasuke.setNome("Sasuke");
 
-        Uzumaki Naruto = new Uzumaki();
-        Naruto.Nome = "Naruto Uzumaki";
-        Naruto.Idade = 18;
-
+        Uzumaki naruto = new Uzumaki();
+        naruto.setIdade(18);
+        naruto.setNome("Naruto Uzumaki");
 
 
         System.out.println("======= Escolha uma Opção =======");
@@ -28,15 +27,15 @@ public class Main {
 while (PrimeiraEscolha != 2){
         switch (PrimeiraEscolha) {
             case 1:
-                System.out.println("1 - " + Sasuke.Nome);
-                System.out.println("2 - " + Naruto.Nome);
+                System.out.println("1 - " + sasuke.getNome());
+                System.out.println("2 - " + naruto.getNome());
                 System.out.print("Escolha seu ninja e sua missão: ");
                 int SegundaEscolha = CaixaDeTexto.nextInt();
 
                 switch (SegundaEscolha) {
                     case 1:
-                        Sasuke.mostrarInformacoes();
-                        Sasuke.Sharingan();
+                        sasuke.mostrarInformacoes();
+                        sasuke.Sharingan();
                         System.out.println("========= MISSOES ===========");
                         String[] MissaoSasuke = new String[2];
                         MissaoSasuke[0] = "1 - Ajudar o Mestre de obra chegar na ponte da Aldeia da Nevoa  (Nivel C) ";
@@ -48,19 +47,19 @@ while (PrimeiraEscolha != 2){
                         int Missao = CaixaDeTexto.nextInt();
                         switch (Missao) {
                             case 1:
-                                Sasuke.PrimeiraPartemissaoPonteVelho();
+                                sasuke.PrimeiraPartemissaoPonteVelho();
                                 break;
                             case 2:
-                                Sasuke.SegundaMissaoAmuleto();
+                               sasuke.SegundaMissaoAmuleto();
                             default:
                                 System.out.println("Missao indisponivel tente mais tarde...");
                         }
                         break;
                     case 2:
                         System.out.println("=================================");
-                        Naruto.mostrarInformacoes();
-                        Naruto.ModoSabio();
-                        Naruto.EscolhaAMissaoUzumaki();
+                        naruto.mostrarInformacoes();
+                        naruto.ModoSabio();
+                        naruto.EscolhaAMissaoUzumaki();
                         break;
                     default:
                         System.out.println("Não sera possivel prosseguir! Encerrando o programa...");
